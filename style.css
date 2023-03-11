@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 h1{
@@ -20,7 +21,7 @@ h1{
 .margin-left{
     width: 14%;
     height: 100%;
-    background-color: dodgerblue;
+    background-color: rgba(248, 83, 97, 225);
 }
 
 .gallery-title-buy-box{
@@ -80,4 +81,25 @@ h1{
     width: 14%;
     height: 100%;
     background-color: dodgerblue;
+}
+
+@media screen and (max-width: 780px){
+    .all{
+        height: 1000px;
+    }
+    .gallery-title-buy-box{
+        display: block;
+    }
+    .gallery{
+        width: 100%;
+    }
+
+    .title-buy-box{
+        display: block;
+        width: 100%;
+    }
+    
+    .center{
+        display: block;
+    }
 }
